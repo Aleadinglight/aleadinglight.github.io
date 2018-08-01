@@ -1,0 +1,11 @@
+.left{
+    width:20vw;
+    background-color: crimson;
+    float:left;
+    height: 100vh;
+}
+
+.right{
+    height: 100vh;
+    width:80vw;
+}
