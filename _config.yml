@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            Hydeout
 tagline:          'A Jekyll theme'
 description:      'I am a developer'
-url:              https://aleadinglight.github.io
+url:              ''
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
