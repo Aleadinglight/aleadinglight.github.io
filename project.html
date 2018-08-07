@@ -3,6 +3,7 @@ layout: page
 title: Projects
 ---
 {% for post in site.posts %}	
-    <h3><a href="{{ post.title }}">{{ post.title }}</a></h3>
+    {{ post.content }}
+    <h3>{{ post.title }}</a></h3>
     <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . </small></p>			
 {% endfor %}	
