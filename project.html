@@ -1,9 +1,0 @@
----
-layout: page
-title: Projects
----
-{% for post in site.posts %}	
-    <h3><a href="{{ post.post_link }}">{{ post.title }}</a></h3>
-    <p>{{ post.post_description }}</p>
-    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> </small></p>			
-{% endfor %}	
