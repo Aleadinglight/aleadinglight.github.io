@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import './About.css';
 
 class About extends Component {
   state = {}
@@ -8,7 +9,7 @@ class About extends Component {
     return (
       <Container>
         <Row>
-          <Col sm={7}>
+          <Col lg={7}>
             <div className='content'>
               <div className='item'>
                 <div className='section-header text-left'>
@@ -29,7 +30,11 @@ class About extends Component {
               </div>
             </div>
           </Col>
-          <Col sm={5}></Col>
+          <Col lg={5}>
+            <div className="about-img text-center">
+              <img src='./img/iu.jpg'/>
+            </div>
+          </Col>
         </Row>
       </Container>);
   }
