@@ -1,3 +1,7 @@
+.content {
+    padding-left: 50px;
+}
+
 .about-img {
     position: relative;
     z-index: 3;
@@ -5,6 +9,7 @@
     animation: animation-jump 2s ease-in-out infinite;
     -webkit-animation: animation-jump 2s ease-in-out infinite;
     border-radius: 20px;
+    width: 370px;
 }
 
 img{
@@ -12,4 +17,28 @@ img{
     width: 370px;
     border-radius: 20px;
     border-style: none;
+}
+
+.button {
+    margin-right: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 3;
+}
+
+.btnbar {
+    padding: 5px;
+    width: 100%;
+}
+
+.gradient .button {
+    border-color: rgba(54,40,158,0.85);
+}
+
+.gradient .button-bg {
+    background: rgb(54,40,158);
+}
+
+span, a {
+    display: inline-block;
 }

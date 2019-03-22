@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button, ButtonToolbar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './About.css';
 
@@ -27,13 +27,21 @@ class About extends Component {
                   type specimen book It has survived not only five centuries. Setting industry when an unknown 
                   printer took a galley of type and scrambled it to make a type specimen book It has survived 
                   not only five centuries.</p>
+                  
               </div>
             </div>
           </Col>
           <Col lg={5}>
-            <div className="about-img text-center">
+            <div className='about-img text-center'>
               <img src='./img/iu.jpg'/>
             </div>
+
+            <Row> 
+              <ButtonToolbar className='btnbar justify-content-center'>
+                <Button variant="primary" className='button'>Download resume</Button>
+                <Button variant="outline-primary" className='button'>Contact me</Button>
+              </ButtonToolbar>
+            </Row>
           </Col>
         </Row>
       </Container>);
