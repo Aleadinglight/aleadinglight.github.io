@@ -7,7 +7,7 @@ class Services extends Component {
 
   render() {
     return ( 
-      <Container className='section-padding' id='Services' data-scroll-index="3">
+      <Container className='section-padding' id='Services'>
         <Row>
           <Col lg={12}>
             <div className='section-head'>
@@ -19,7 +19,7 @@ class Services extends Component {
 
         <Row>
           <Col lg={4}>
-            <Card>
+            <Card className='item' border='light'>
               <Card.Body>
                 <Card.Title>
                   Cloud Computing
@@ -31,7 +31,7 @@ class Services extends Component {
             </Card>
           </Col>
           <Col lg={4}>
-            <Card>
+            <Card  className='item' border='light'>
               <Card.Body>
                 <Card.Title>
                   Cloud Computing
@@ -43,7 +43,7 @@ class Services extends Component {
             </Card>
           </Col>
           <Col lg={4}>
-            <Card>
+            <Card className='item' border='light'> 
               <Card.Body>
                 <Card.Title>
                   Cloud Computing
@@ -58,7 +58,7 @@ class Services extends Component {
         <br/>
         <Row>
           <Col lg={4}>
-            <Card>
+            <Card className='item' border='light'>
               <Card.Body>
                 <Card.Title>
                   Cloud Computing
@@ -70,7 +70,7 @@ class Services extends Component {
             </Card>
           </Col>
           <Col lg={4}>
-            <Card>
+            <Card className='item' border='light'>
               <Card.Body>
                 <Card.Title>
                   Cloud Computing
@@ -82,7 +82,7 @@ class Services extends Component {
             </Card>
           </Col>
           <Col lg={4}>
-            <Card>
+            <Card className='item' border='light'>
               <Card.Body>
                 <Card.Title>
                   Cloud Computing

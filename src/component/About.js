@@ -7,11 +7,11 @@ class About extends Component {
   state = {}
   render() {
     return (
-      <Container className='section-padding'>
+      <Container className='section-padding' id='About' fluid='true'>
         <Row>
           <Col lg={7}>
             <div className='content'>
-              <div className='item'>
+              <div className='aboutme'>
                 <div className='section-header text-left'>
                   <h4>
                     I'm Tam Nguyen
@@ -33,7 +33,7 @@ class About extends Component {
           </Col>
           <Col lg={5}>
             <div className='about-img text-center'>
-              <img src='./img/iu.jpg'/>
+              <img src='./img/iu.jpg' className='about-img'/>
             </div>
 
             <Row> 

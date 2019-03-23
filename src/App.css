@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.bg-gray {
+  background: #fafafa;
+}
+
 .App {
   text-align: center;
 }

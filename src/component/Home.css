@@ -1,0 +1,12 @@
+.home {
+    height: 100vh;
+
+}
+
+.home-img {
+    width: 100vw;
+    height: 100vh;
+    max-width:100%;
+    opacity: 0.98;
+    filter: alpha(opacity=98);
+}

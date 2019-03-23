@@ -7,7 +7,7 @@ class Contact extends Component {
   state = {}
   render() {
     return ( 
-      <Container className='section-padding'>
+      <Container className='section-padding' id='Contact'>
         <Row>
           <Col lg={12}>
             <div className='section-head'>

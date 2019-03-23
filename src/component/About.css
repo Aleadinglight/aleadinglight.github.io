@@ -1,3 +1,4 @@
+
 .content {
     padding-left: 50px;
 }
@@ -9,10 +10,6 @@
     animation: animation-jump 2s ease-in-out infinite;
     -webkit-animation: animation-jump 2s ease-in-out infinite;
     border-radius: 20px;
-    width: 370px;
-}
-
-img{
     height: 555px;
     width: 370px;
     border-radius: 20px;

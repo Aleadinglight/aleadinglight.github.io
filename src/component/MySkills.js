@@ -26,6 +26,7 @@ class MySkill extends Component {
   }
 
   handleScroll() {
+
     if (this.state.num>50)
       return;
     this.timerID = setInterval(
@@ -37,7 +38,7 @@ class MySkill extends Component {
   
   render() {
     return (
-      <div className='section-padding'>
+      <div className='section-padding bg-gray' id='MySkills'>
         <ScrollTrigger onEnter={this.handleScroll}></ScrollTrigger>
         <Container>
           <Row>
