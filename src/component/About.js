@@ -33,7 +33,7 @@ class About extends Component {
           </Col>
           <Col lg={5}>
             <div className='about-img text-center'>
-              <img src='./img/iu.jpg' className='about-img'/>
+              <img src='./img/iu.jpg' className='about-img' alt=''/>
             </div>
 
             <Row> 

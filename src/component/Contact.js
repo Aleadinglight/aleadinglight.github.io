@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Contact.css';
+import BackgroundImage from './map.png';
+
+var sectionStyle= {backgroundImage: "url(" + BackgroundImage + ")"};
 
 class Contact extends Component {
-  state = {}
+  state = {};
   render() {
     return ( 
-      <Container className='section-padding' id='Contact'>
+      <Container fluid='true' className='section-padding contact' id='Contact' style={sectionStyle}>
         <Row>
           <Col lg={12}>
             <div className='section-head'>
