@@ -7,7 +7,7 @@ class About extends Component {
   state = {}
   render() {
     return (
-      <Container>
+      <Container className='section-padding'>
         <Row>
           <Col lg={7}>
             <div className='content'>

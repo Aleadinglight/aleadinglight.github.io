@@ -30,7 +30,7 @@ class MySkill extends Component {
       return;
     this.timerID = setInterval(
       ()=> this.incN(),
-      100
+      10
     );
     //  alert('asd');
   }

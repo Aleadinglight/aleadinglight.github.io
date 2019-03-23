@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -20,6 +24,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.section-padding {
+  padding: 90px 0 90px;
+}
+
+.section-head {
+  margin: 50px;
 }
 
 @keyframes App-logo-spin {
