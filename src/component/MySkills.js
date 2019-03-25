@@ -26,7 +26,6 @@ class MySkill extends Component {
   }
 
   handleScroll() {
-
     if (this.state.num>50)
       return;
     this.timerID = setInterval(

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Contact.css';
-import BackgroundImage from './map.png';
+import BackgroundMap from './img/map.png';
 
-var sectionStyle= {backgroundImage: "url(" + BackgroundImage + ")"};
+var sectionStyle= {backgroundImage: "url(" + BackgroundMap + ")"};
 
 class Contact extends Component {
   state = {};

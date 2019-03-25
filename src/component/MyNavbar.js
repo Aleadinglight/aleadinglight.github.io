@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.css';
 
 class MyNavbar extends Component {
-  
-  state = {show: true};
-    //this.state.show.bind(this);
 
   render() {
-    if (this.state.show === true)
+    //console.log(this.props.show);
+    if (this.props.show === true)
       return (
-        <Navbar bg="light" expand="lg" className="nav-scroll">
+        <Navbar bg="light" expand="lg" className="nav-scroll" fixed='top'>
           <Navbar.Brand href="#Home">ALEADING LIGHT</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end">
