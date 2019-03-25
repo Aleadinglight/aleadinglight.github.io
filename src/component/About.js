@@ -38,12 +38,12 @@ class About extends Component {
             </div>
           </Col>
           <Col lg={5}>
-            <div className='about-img text-center'>
+            <div className='about-img justify-content-center'>
               <img src='./img/iu.jpg' className='about-img' alt=''/>
             </div>
 
             <Row> 
-              <ButtonToolbar className='btnbar justify-content-center'>
+              <ButtonToolbar className='btnbar justify-content-left'>
                 <Button variant="primary" className='button'>Download resume</Button>
                 <Button variant="outline-primary" className='button'>Contact me</Button>
               </ButtonToolbar>
