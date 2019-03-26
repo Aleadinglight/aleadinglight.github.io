@@ -10,10 +10,9 @@
     animation: animation-jump 2s ease-in-out infinite;
     -webkit-animation: animation-jump 2s ease-in-out infinite;
     border-radius: 20px;
-    height: 555px;
-    width: 370px;
-    border-radius: 20px;
     border-style: none;
+    height: 530px;
+    width: 395px;
     margin:0px;
 }
 

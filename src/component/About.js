@@ -12,7 +12,7 @@ class About extends Component {
   }
   render() {
     return (
-      <Container className='section-padding' id='About' fluid='true'>
+      <Container className='section-padding' id='About' >
         
         <Row>
           <Col lg={7}>
@@ -24,28 +24,31 @@ class About extends Component {
                   </h4>
                 </div>
                 <h6 className='text-left'>DEVELOPER / APP DESIGNER</h6>
-                <p className='text-left'>Lorem Ipsum is simply dummy unknown printer took a galley of type and text of the '
-                  printing and type setting specimen book industry when an unknown printer took a galley 
-                  of type and scrambled it to make a type specimen book It has survived not only five centuries.</p>
+                <p className='text-left'>I am Nguyen Huu Tam. I am a programmer in Vaasa, Finland.
+                  I have fallen in love with coding since the very beginning of my school's life.
+                  Which lead to a result that I get to know and experience a lot of coding languages and system design.
+                  I am proficient in C++, Python and Javascript. Familiar with many technologies such as: Deep learning,
+                  Machine learnign, Web hosting, Web development, Git, Internet of things, Software development...</p>
                 <ScrollTrigger onEnter={this.handleNavShow.bind(this)}></ScrollTrigger>
-                <p className='text-left'>Setting industry when an unknown printer took a galley of type and scrambled it to make a 
-                type specimen book It has survived not only five centuries.</p>
-                <p className='text-left'>Setting industry when an unknown printer took a galley of type and scrambled it to make a 
-                  type specimen book It has survived not only five centuries. Setting industry when an unknown 
-                  printer took a galley of type and scrambled it to make a type specimen book It has survived 
-                  not only five centuries.</p>
+                <p className='text-left'>Considering myself as a young man, 
+                  I believe I must always keep studying new things and moving forward, that is 
+                  why I am always available for new positions and challenges. So if you have something in mind,
+                  please don't hesitate to send me an email.</p>
+                <p className='text-left'>If you happen to be here somehow, then I guest fate has set our paths to meet each other, 
+                  atleast once in a while.
+                  So if you decide to know more about me, please head to my Projects page.</p>
               </div>
             </div>
           </Col>
           <Col lg={5}>
             <div className='about-img justify-content-center'>
-              <img src='./img/iu.jpg' className='about-img' alt=''/>
+              <img src='./img/ava.jpg' className='about-img' alt=''/>
             </div>
 
-              <ButtonToolbar className='btnbar justify-content-left'>
-                <Button variant="primary" className='button'>Download resume</Button>
-                <Button variant="outline-primary" className='button' href='#Contact'>Contact me</Button>
-              </ButtonToolbar>
+            <ButtonToolbar className='btnbar justify-content-center'>
+              <Button variant="primary" className='button'>My resume</Button>
+              <Button variant="outline-primary" className='button' href='#Contact'>Contact me</Button>
+            </ButtonToolbar>
           </Col>
         </Row>
       </Container>);
