@@ -22,7 +22,7 @@ class Services extends Component {
             <Card className='item' border='light'>
               <Card.Body>
                 <Card.Title>
-                  Cloud Computing
+                  Web Development
                 </Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -46,7 +46,7 @@ class Services extends Component {
             <Card className='item' border='light'> 
               <Card.Body>
                 <Card.Title>
-                  Cloud Computing
+                  Desktop Application
                 </Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -61,7 +61,7 @@ class Services extends Component {
             <Card className='item' border='light'>
               <Card.Body>
                 <Card.Title>
-                  Cloud Computing
+                  Internet of Things
                 </Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -73,7 +73,7 @@ class Services extends Component {
             <Card className='item' border='light'>
               <Card.Body>
                 <Card.Title>
-                  Cloud Computing
+                  Mobile Application
                 </Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -85,7 +85,7 @@ class Services extends Component {
             <Card className='item' border='light'>
               <Card.Body>
                 <Card.Title>
-                  Cloud Computing
+                  Machine Learning & Deep Learning
                 </Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.

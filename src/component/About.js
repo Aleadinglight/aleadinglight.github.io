@@ -42,12 +42,10 @@ class About extends Component {
               <img src='./img/iu.jpg' className='about-img' alt=''/>
             </div>
 
-            <Row> 
               <ButtonToolbar className='btnbar justify-content-left'>
                 <Button variant="primary" className='button'>Download resume</Button>
-                <Button variant="outline-primary" className='button'>Contact me</Button>
+                <Button variant="outline-primary" className='button' href='#Contact'>Contact me</Button>
               </ButtonToolbar>
-            </Row>
           </Col>
         </Row>
       </Container>);
