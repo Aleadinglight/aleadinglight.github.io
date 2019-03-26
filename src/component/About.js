@@ -28,7 +28,7 @@ class About extends Component {
                   I have fallen in love with coding since the very beginning of my school's life.
                   Which lead to a result that I get to know and experience a lot of coding languages and system design.
                   I am proficient in C++, Python and Javascript. Familiar with many technologies such as: Deep learning,
-                    Machine learnign, Web hosting, Web development, Git, Internet of things, Software development...</p>
+                    Machine learning, Web hosting, Web development, Git, Internet of things, Software development...</p>
                 <ScrollTrigger onEnter={this.handleNavShow.bind(this)}></ScrollTrigger>
                 <p className='text-left'>Considering myself as a young man,
                   I believe I must always keep studying new things and moving forward, that is
