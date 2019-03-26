@@ -25,7 +25,8 @@ class Services extends Component {
                   Web Development
                 </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  If you need help building a website, don't hesitate to contact me. 
+                  I have been working with React + Redux and this website is build on them.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -37,7 +38,9 @@ class Services extends Component {
                   Cloud Computing
                 </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Feel like you need a cloud server? Give me a call. 
+                  I can build back-end with Node.js and deploying them to Heroku, or Amazon Cloud. 
+                  Which one you prefer?
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -49,7 +52,9 @@ class Services extends Component {
                   Desktop Application
                 </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Real life experienced right here. 
+                  I have design & develope a desktop application for a local company. 
+                  The main framework that I am currently using is .NET
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -64,7 +69,8 @@ class Services extends Component {
                   Internet of Things
                 </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  When I was a trainee, I have worked with IOT - Ticket for my company. 
+                  I handle client part to connect with the server using its protocol.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -76,7 +82,9 @@ class Services extends Component {
                   Mobile Application
                 </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Lately I find myself interested in Flutter for mobile app. 
+                  I was playing around and even became a package contributor.
+                  You will find a link in the below section.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -88,7 +96,10 @@ class Services extends Component {
                   Machine Learning & Deep Learning
                 </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  I have been playing around with Pytorch for a while,
+                  written some tutorial training neural network.
+                  Some of the first projects in my life was about real-time recognition and
+                  sequential predicting.
                 </Card.Text>
               </Card.Body>
             </Card>

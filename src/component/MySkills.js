@@ -60,7 +60,7 @@ class MySkill extends Component {
   }
 
   handleScroll() {
-    if (this.state.cpp==this.const_state.cpp)
+    if (this.state.cpp === this.const_state.cpp)
       return;
     this.timerID = setInterval(
       ()=> this.incN(),

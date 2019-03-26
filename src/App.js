@@ -6,6 +6,7 @@ import MySkills from './component/MySkills';
 import About from './component/About';
 import Services from './component/Services';
 import Contact from './component/Contact';
+import Projects from './component/Projects';
 import Home from './component/Home';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -32,6 +33,7 @@ class App extends Component {
         <About onSeen={this.hideNav.bind(this)}/>
         <MySkills />
         <Services />
+        <Projects />
         <Contact />
       </div>
     );
