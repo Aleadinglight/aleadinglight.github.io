@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './Home.css';
 import ScrollTrigger from 'react-scroll-trigger';
 import BackgroundImage from './img/redemption.jpg';
@@ -29,6 +29,7 @@ class Home extends Component {
           {this.state.typing ? 
           <Typist avgTypingDelay={80}>
             <h4 className='welcome-text'> Welcome To My Portfolio </h4>
+            <h4 className='welcome-text'> Get busy living, or get busy dying </h4>
           </Typist>: ''}
         </Container>
       </div>

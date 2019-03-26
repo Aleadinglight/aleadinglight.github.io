@@ -17,7 +17,7 @@ class Projects extends Component {
     return ( 
       <Container className='section-padding bg-gray' fluid='true' id='Portfolio'>
         <Container>
-          <Row>
+          <Row data-aos='fade-up'>
             <Col lg={12}>
               <div className='section-head'>
                 <h4>My Projects</h4>
@@ -27,12 +27,12 @@ class Projects extends Component {
           </Row>
           
           <CardColumns>
-            <Card>
+            <Card data-aos='fade-up'>
               <Card.Img variant="top" src={askaiImg} />
               <Card.Body>
-                <Card.Title><Card.Link href="#" className='cardlink'>Ask AI</Card.Link></Card.Title>
+                <Card.Title><Card.Link href="https://github.com/Aleadinglight/askAI" className='cardlink'>Ask AI</Card.Link></Card.Title>
                 <Card.Text>
-                  AI name Galadriel that can be controlled with voice command to search for definition of a word. The project
+                  An AI name Galadriel that can be controlled with voice command to search for definition of a word. The project
                   is also hosted on Heroku with user interface.
                 </Card.Text>
                 
@@ -42,10 +42,10 @@ class Projects extends Component {
               </Card.Footer>
             </Card>
             
-            <Card>
+            <Card data-aos='fade-up'>
               <Card.Img variant="top" src={digitreco} />
               <Card.Body>
-                <Card.Title><Card.Link href="#" className='cardlink'>Real-time Digits Recognition</Card.Link></Card.Title>
+                <Card.Title><Card.Link href="https://github.com/Aleadinglight/Real-time-handwritten-digits-recognition" className='cardlink'>Real-time Digits Recognition</Card.Link></Card.Title>
                 <Card.Text>
                   An application in Python that recognize hand-written digit using input images from desktop's camera.
                 </Card.Text>
@@ -55,10 +55,10 @@ class Projects extends Component {
               </Card.Footer>
             </Card>
 
-            <Card>
+            <Card data-aos='fade-up'>
               <Card.Img variant="top" src={artStyleImg} />
               <Card.Body>
-                <Card.Title><Card.Link href="#" className='cardlink'>Art-style Transfer</Card.Link></Card.Title>
+                <Card.Title><Card.Link href="https://github.com/Aleadinglight/Pytorch-VGG-19" className='cardlink'>Art-style Transfer</Card.Link></Card.Title>
                 <Card.Text>
                   Create a mix in style and content of two pictures using the power of Convolutional Neural Network
                 </Card.Text>
@@ -68,12 +68,12 @@ class Projects extends Component {
               </Card.Footer>
             </Card>
 
-            <Card>
+            <Card data-aos='fade-up'>
               <Card.Img variant="top" src={particles} />
               <Card.Body>
-                <Card.Title><Card.Link href="#" className='cardlink'>Flutter Particles</Card.Link></Card.Title>
+                <Card.Title><Card.Link href="https://github.com/Aleadinglight/Flutter-Particles" className='cardlink'>Flutter Particles</Card.Link></Card.Title>
                 <Card.Text>
-                  A Flutter widget for creating particles background. 
+                  A Flutter widget for creating particles background. Posted on Flutter's packages site. 
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -81,10 +81,10 @@ class Projects extends Component {
               </Card.Footer>
             </Card>
 
-            <Card>
+            <Card data-aos='fade-up'>
               <Card.Img variant="top" src={chart} />
               <Card.Body>
-                <Card.Title><Card.Link href="#" className='cardlink'>Java Interactive Chart</Card.Link></Card.Title>
+                <Card.Title><Card.Link href="https://github.com/Aleadinglight/Interactive-chart-java" className='cardlink'>Java Interactive Chart</Card.Link></Card.Title>
                 <Card.Text>
                   An application for displaying 2D chart on energy consumption where user can interact with the chart directly. Data is
                   stored in a tree where each node is the value of the energy used.
@@ -95,10 +95,10 @@ class Projects extends Component {
               </Card.Footer>
             </Card>
 
-            <Card>
+            <Card data-aos='fade-up'>
               <Card.Img variant="top" src={scraping} />
               <Card.Body>
-                <Card.Title><Card.Link href="#" className='cardlink'>Job Description Data Scrapping</Card.Link></Card.Title>
+                <Card.Title><Card.Link href="https://github.com/Aleadinglight/Job-Description-Data-Scraping" className='cardlink'>Job Description Data Scrapping</Card.Link></Card.Title>
                 <Card.Text>
                   A tool in Python to get the job's description from Indeed.com
                 </Card.Text>
@@ -108,12 +108,12 @@ class Projects extends Component {
               </Card.Footer>
             </Card>
 
-            <Card>
+            <Card data-aos='fade-up'>
               <Card.Img variant="top" src={aug} />
               <Card.Body>
-                <Card.Title><Card.Link href="#" className='cardlink'>Data Augmentation</Card.Link></Card.Title>
+                <Card.Title><Card.Link href="https://github.com/Aleadinglight/Data-Augmentation" className='cardlink'>Data Augmentation</Card.Link></Card.Title>
                 <Card.Text>
-                  Increasing the dataset                
+                  Using data augmentation methods to increase the dataset                
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -121,12 +121,12 @@ class Projects extends Component {
               </Card.Footer>
             </Card>
 
-            <Card>
+            <Card data-aos='fade-up'>
               <Card.Img variant="top" src={raspberry} />
               <Card.Body>
-                <Card.Title><Card.Link href="#" className="cardlink">Raspberry Pi Application</Card.Link></Card.Title>
+                <Card.Title><Card.Link href="https://github.com/Aleadinglight/Rasp_AppDev" className="cardlink">Raspberry Pi Application</Card.Link></Card.Title>
                 <Card.Text>
-                  An application
+                  Using Rasperry Pi 3 with USB soundcard and microphone to visualize sound.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>

@@ -20,7 +20,7 @@ class MySkill extends Component {
     mysql: 60,
     pytorch: 80,
     flutter: 77,
-    redux: 60,
+    redux: 70,
   };
   
   state = {
@@ -75,7 +75,7 @@ class MySkill extends Component {
         <ScrollTrigger onEnter={this.handleScroll}></ScrollTrigger>
         <Container>
           <Row>
-            <Col lg={12}>
+            <Col lg={12} className='section-head'>
               <h4>My Skills</h4>
               <p>This is my skills what I know and what I can do</p>
             </Col>

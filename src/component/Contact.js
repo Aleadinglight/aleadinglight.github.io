@@ -8,18 +8,23 @@ var sectionStyle= {backgroundImage: "url(" + BackgroundMap + ")"};
 
 class Contact extends Component {
   state = {};
+
+  handleEmailSend() {
+    alert('Please contact me via my email. This page is currently hosted on GitHub so its only a static page. Therefore, it cannot send email properly :) I will find a way to fix this later.');
+  }
+
   render() {
     return ( 
       <Container fluid='true' className='section-padding contact' id='Contact' style={sectionStyle}>
         <Row>
-          <Col lg={12}>
+          <Col lg={12} data-aos='fade-up'>
             <div className='section-head'>
               <h4>Leave a Message</h4>
             </div>
           </Col>
         </Row>
         
-        <Row>
+        <Row data-aos='fade-up'>
           <Col lg={6}>
             <Form>
               <Row>
@@ -43,7 +48,7 @@ class Contact extends Component {
                 </Col>
               </Row>
               <br/>
-              <Button variant="warning" type="submit">
+              <Button variant="primary" type="submit" onClick={this.handleEmailSend.bind(this)}>
                 Send Message
               </Button>
             </Form>
