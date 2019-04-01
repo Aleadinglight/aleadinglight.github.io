@@ -4,7 +4,7 @@ import './Home.css';
 import ScrollTrigger from 'react-scroll-trigger';
 import BackgroundImage from './img/redemption.jpg';
 import Typist from 'react-typist';
-
+ 
 var sectionStyle= {backgroundImage: "url(" + BackgroundImage + ")"};
 
 class Home extends Component {
@@ -22,7 +22,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className='home justify-content-center d-flex align-items-center' id='Home' style={sectionStyle}>
+      <div className='home justify-content-center d-flex align-items-center' id='Home' style={sectionStyle} data-aos='fade-zoom-in'>
         <ScrollTrigger onEnter={this.handleNavHide.bind(this)}></ScrollTrigger>
         <ScrollTrigger onEnter={this.done}></ScrollTrigger>
         <Container className='justify-content-center'>

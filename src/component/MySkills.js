@@ -72,7 +72,7 @@ class MySkill extends Component {
   render() {
     return (
       <div className='section-padding bg-gray' id='MySkills'>
-        <ScrollTrigger onEnter={this.handleScroll}></ScrollTrigger>
+        
         <Container>
           <Row>
             <Col lg={12} className='section-head'>
@@ -97,6 +97,7 @@ class MySkill extends Component {
               <ProgressBar now={this.state.sh} label={'Bash'} className='progress-item'></ProgressBar>
             </Col>
           </Row>
+          <ScrollTrigger onEnter={this.handleScroll}></ScrollTrigger>
           <br/><br/>
           <Row><h4>Technologies</h4></Row>
           <Row>
@@ -111,6 +112,7 @@ class MySkill extends Component {
               <ProgressBar now={this.state.flutter} label={'Flutter'} className='progress-item'></ProgressBar>
             </Col>
           </Row>
+          
         </Container>
       </div>
     );

@@ -130,7 +130,7 @@ class Projects extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">JavaFx</small>
+                <small className="text-muted">C++, PHP, Javascript</small>
               </Card.Footer>
             </Card>
           </CardColumns>  
