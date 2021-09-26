@@ -1,12 +1,18 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './logo.svg';
-import './App.css';
-import LandingPage from './components/landingPage/LandingPage';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import logo from './logo.svg'
+import './App.css'
+import MyNavbar from './components/mynavbar/MyNavbar'
+import LandingPage from './components/landingpage/LandingPage'
+import About from './components/about/About'
+import Experience from './components/experience/Experience'
 
 function App() {
   return (
     <div className="App">
+      <MyNavbar />
       <LandingPage />
+      <About />
+      <Experience />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
