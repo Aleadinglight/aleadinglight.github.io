@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
+import Container from 'react-bootstrap/Container'
 import './Experience.css'
 
 export default class Experience extends Component {
   render() {
     return (
-      <div id="experience-container">
-        My experience
-      </div>
+      <Container id="experience-container" className="common-section-container">
+        <h2 class="my-common-header">Experience</h2>
+      </Container>
     )
   }
 }
