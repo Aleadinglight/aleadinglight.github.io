@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from './logo.svg'
 import './App.css'
+import './components/common/Common.css'
 import MyNavbar from './components/mynavbar/MyNavbar'
 import LandingPage from './components/landingpage/LandingPage'
 import About from './components/about/About'

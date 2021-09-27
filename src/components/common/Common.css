@@ -1,0 +1,14 @@
+.my-common-header {
+  color: rgb(58, 99, 163);
+  font-weight: 700 !important;
+  border-bottom: 2px solid rgb(109, 125, 165);
+}
+
+.common-section-container {
+  padding-top: 10vh;
+  text-align: left;
+}
+
+.common-inner {
+  padding: 2rem 0 2rem 0;
+}
