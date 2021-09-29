@@ -26,7 +26,7 @@ export default class About extends Component {
 
             <Col md={5} className="my-avatar-holder">
               <Image src={avatar} className="my-avatar"/>
-              <p className="my-avatar-description">Don't let the picture fool you, I am a clown at heart.</p>
+              <p className="my-avatar-description">Don't let the picture scare you, I am a clown at heart.</p>
             </Col>
           </Row>
         </Container>
