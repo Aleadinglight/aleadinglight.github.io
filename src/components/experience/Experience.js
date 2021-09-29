@@ -6,7 +6,7 @@ export default class Experience extends Component {
   render() {
     return (
       <Container id="experience-container" className="common-section-container">
-        <h2 class="my-common-header">Experience</h2>
+        <h2 className="my-common-header">Experience</h2>
       </Container>
     )
   }
