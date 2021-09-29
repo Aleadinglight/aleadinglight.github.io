@@ -1,5 +1,20 @@
 #about-me {
-  padding-top: 10vh;
-  height: 80vh;
-  background-color: antiquewhite;
+  
+}
+
+.about-me-dialog {
+  font-size: 18px;
+  line-height: 25.5px;
+}
+
+.my-avatar-holder {
+  text-align: center;
+}
+
+.my-avatar {
+  height: 300px;
+}
+
+.my-avatar-description {
+  
 }
