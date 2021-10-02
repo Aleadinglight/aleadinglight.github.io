@@ -18,7 +18,7 @@ export default class MyTimeline extends Component {
           <h3 className="vertical-timeline-element-title">
             Software developer at Vamk
           </h3>
-          <p className="my-timeline-time">Fall 2019 - Summer 2019</p>
+          <p className="my-timeline-time">Fall 2018</p>
           <p className="my-timeline-description">
             Creative Direction, User Experience, Visual Design, Project Management, Team Leading
           </p>
@@ -34,9 +34,9 @@ export default class MyTimeline extends Component {
           <h3 className="vertical-timeline-element-title">
             Software developer at Excosoft 
           </h3>
-          <p className="my-timeline-time">Fall 2019 - Summer 2019</p>
+          <p className="my-timeline-time">Summer 2019</p>
           <p className="my-timeline-description">
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            Full-stack developer
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -48,11 +48,11 @@ export default class MyTimeline extends Component {
           icon
         >
           <h3 className="vertical-timeline-element-title">
-            Full-stack web engineer
+            Former Backend Developer
           </h3>
-          <p className="my-timeline-time">Fall 2019 - Summer 2019</p>
+          <p className="my-timeline-time">Winter 2021 - Now</p>
           <p className="my-timeline-description">
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            Backend Software Engineer
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
