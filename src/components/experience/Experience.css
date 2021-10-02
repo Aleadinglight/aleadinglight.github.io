@@ -1,3 +1,27 @@
 #experience-container {
-  height: 80vh;
+  
+}
+
+.timeline-container {
+  padding-left: 0%;
+  text-align: center;
+  background-color: #f8f9fa; 
+}
+
+.timeline-content {
+  width: 80%;
+}
+
+.experience-text {
+  padding: 1rem 0 1rem 0;
+  font-size: 18px;
+  line-height: 25.5px;
+}
+
+.timeline-content {
+  width: 80%;
+}
+
+.card-sub-title {
+  padding-left: 20px;
 }
