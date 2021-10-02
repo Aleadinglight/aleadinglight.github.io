@@ -6,7 +6,7 @@ import MyNavbar from './components/mynavbar/MyNavbar'
 import LandingPage from './components/landingpage/LandingPage'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
-
+import Porfolio from './components/porfolio/Porfolio'
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <LandingPage />
       <About />
       <Experience />
+      <Porfolio />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
