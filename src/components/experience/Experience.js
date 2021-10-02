@@ -16,7 +16,7 @@ export default class Experience extends Component {
     return (
       <Container id="experience-container" className="common-section-container">
         <h2 className="my-common-header">Experience</h2>
-        <p className="experience-text">I have been working with bla bla bla hehehehe</p>
+        <p className="experience-text">Thanks to these years in the field, I acquired more knowledge, developed an engineering mindset, and improved my time management skills. I also improved my ability to communicate with team members and clients while working through milestones and deadlines. <br /><br /></p>
         <div className="timeline-container">
           <MyTimeline className="timeline-content"></MyTimeline>
         </div>
