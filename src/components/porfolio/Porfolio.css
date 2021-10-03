@@ -1,4 +1,7 @@
 .porfolio-card {
-  display: inline-block;
-  width: 300px;
+  
+}
+
+.card-column {
+  padding: 0.5rem;
 }
