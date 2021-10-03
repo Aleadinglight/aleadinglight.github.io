@@ -14,7 +14,7 @@ export default class MyNavbar extends Component {
             <Nav className="me-auto">
               <Nav.Link href="#about-me">About</Nav.Link>
               <Nav.Link href="#experience-container">Experience</Nav.Link>
-              <Nav.Link href="">Porfolio</Nav.Link>
+              <Nav.Link href="#porfolio">Porfolio</Nav.Link>
               <Nav.Link href="">Contact</Nav.Link>
             </Nav>
           </Container>
