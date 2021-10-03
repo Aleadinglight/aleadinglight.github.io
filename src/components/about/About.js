@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { Col, Row } from 'react-bootstrap'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
+import Figure from 'react-bootstrap/Figure'
 import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import avatar from '../../static/images/stare_crop.jpg'
@@ -23,12 +25,17 @@ export default class About extends Component {
             </Col>
 
             <Col md={5} className="my-avatar-holder">
-              <div>
-                <Image src={avatar} className="my-avatar" thumbnail />
-                <div className="my-avatar-description-container">
-                  <p className="my-avatar-description">Don't let the picture scare you, I am a clown at heart.</p>
-                </div>
-              </div>
+              <Figure>
+                <Figure.Image
+                  className="my-avatar"
+                  src={avatar}
+                  thumbnail
+                />
+                <Figure.Caption className="my-avatar-caption">
+                  Don't let the picture scare you, I am a clown at heart (try clicking on it).
+                </Figure.Caption>
+                
+              </Figure>
             </Col>
           </Row>
         </Container>

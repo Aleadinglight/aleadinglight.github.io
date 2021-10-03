@@ -12,9 +12,10 @@
 }
 
 .my-avatar {
-  height: 300px;
+  width: 400px;
 }
 
-.my-avatar-description {
-  
+.my-avatar-caption {
+  text-align: left;
+  width: 400px;
 }
