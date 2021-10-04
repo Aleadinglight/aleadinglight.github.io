@@ -1,7 +1,9 @@
-.my-navbar-container {
-  
-}
-
 .my-navbar {
   background-color: #27536b;
+}
+
+
+.github-button {
+  width: 40px;
+  height: 40px;
 }

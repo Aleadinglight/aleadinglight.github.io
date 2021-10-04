@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
-import landingIcon from '../../static/images/astronaut.svg'
+import landingIcon from '../../static/images/astronaut.png'
 import Button from 'react-bootstrap/Button'
 import './LandingPage.css'
 

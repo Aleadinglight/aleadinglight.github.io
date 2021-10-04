@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
+import Medium from '../../static/fonts/medium.svg'
+import Github from '../../static/fonts/github.svg'
+import Linkedin from '../../static/fonts/linkedin-in.svg'
+import Image from 'react-bootstrap/Image'
+
 import './MyNavbar.css'
 
 export default class MyNavbar extends Component {
@@ -19,6 +24,23 @@ export default class MyNavbar extends Component {
               <Nav.Link href="#experience-container">Experience</Nav.Link>
               <Nav.Link href="#porfolio">Porfolio</Nav.Link>
               <Nav.Link href="#contact-me">Contact</Nav.Link>
+            </Nav>
+            <Nav>
+              <Nav.Link
+                className="github-button"
+                href="https://github.com/Aleadinglight">
+                <Image src={Github}></Image>
+              </Nav.Link >
+              <Nav.Link
+                className="github-button"
+                href="https://github.com/Aleadinglight">
+                <Image src={Medium}></Image>
+              </Nav.Link >
+              <Nav.Link
+                className="github-button"
+                href="https://github.com/Aleadinglight">
+                <Image src={Linkedin}></Image>
+              </Nav.Link >
             </Nav>
           </Container>
         </Navbar>
