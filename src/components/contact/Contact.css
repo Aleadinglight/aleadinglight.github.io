@@ -1,0 +1,10 @@
+#contact-me {
+  padding-bottom: 20vh;
+}
+
+.contact-button {
+  margin: 1rem 0 1rem 0;
+  width: 300px;
+  border-color: rgb(58, 99, 163);
+  background-color: rgb(58, 99, 163);
+}

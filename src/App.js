@@ -1,21 +1,26 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import logo from './logo.svg'
+//import logo from './logo.svg'
 import './App.css'
 import './components/common/Common.css'
-import MyNavbar from './components/mynavbar/MyNavbar'
 import LandingPage from './components/landingpage/LandingPage'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Porfolio from './components/porfolio/Porfolio'
+import Contact from './components/contact/Contact'
+import MyFooter from './components/myfooter/MyFooter'
+import MyNavbar from './components/mynavbar/MyNavbar'
+
 function App() {
   return (
     <div className="App">
-      <MyNavbar />
       <LandingPage />
+      <MyNavbar />
       <About />
       <Experience />
       <Porfolio />
-      <header className="App-header">
+      <Contact />
+      <MyFooter />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -28,7 +33,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
