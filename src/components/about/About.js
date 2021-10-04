@@ -3,7 +3,6 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Figure from 'react-bootstrap/Figure'
 import Container from 'react-bootstrap/Container'
-import Image from 'react-bootstrap/Image'
 import avatar from '../../static/images/stare_crop.jpg'
 import './About.css'
 
