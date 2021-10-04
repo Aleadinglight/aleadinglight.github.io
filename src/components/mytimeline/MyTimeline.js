@@ -12,9 +12,7 @@ export default class MyTimeline extends Component {
           className="vertical-timeline-element--work my-timeline-card"
           contentStyle={{}}
           contentArrowStyle={{ borderRight: '7px solid #ff6600' }}
-
           iconStyle={{ background: '#ff6600', color: '#fff' }}
-          icon
         >
           <h3 className="vertical-timeline-element-title">
             Software Developer at Vamk
@@ -34,9 +32,7 @@ export default class MyTimeline extends Component {
           className="vertical-timeline-element--work my-timeline-card"
           contentStyle={{}}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon
         >
           <h3 className="vertical-timeline-element-title">
             Software Developer at Excosoft
@@ -48,13 +44,12 @@ export default class MyTimeline extends Component {
           <Badge pill bg="secondary">C#</Badge>{" "}
           <Badge pill bg="secondary">Javascript</Badge>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work my-timeline-card"
           contentStyle={{}}
           contentArrowStyle={{ borderRight: '7px solid #FDC12A' }}
-
           iconStyle={{ background: '#FDC12A', color: '#fff' }}
-          icon
         >
           <h3 className="vertical-timeline-element-title">
             Former Backend Developer at Intuitive

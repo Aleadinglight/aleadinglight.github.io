@@ -22,7 +22,7 @@ export default class Porfolio extends Component {
 
         <Row lg={2} xl={3}>
           {this.state.porfolioData.map((item) => (
-            <Col className="card-column">
+            <Col key={item.name} className="card-column">
               <Card className="porfolio-card">
                 <Card.Img
                   variant="top"
