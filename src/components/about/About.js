@@ -17,9 +17,9 @@ export default class About extends Component {
               <p className="about-me-dialog">
                 Hello! My name is Tam Nguyen, a programmer and sometimes a technical writer. I am passionate about building excellent software that benefits people. My story dates back to high school when I decided to participate in a Programming class out of boredom. It turns out to be one of the most significant decisions I have ever made because I have fallen in love with programming ever since. <br /><br />
 
-                Fast-forward to this day, I am currently a software developer with 4+ years of professional experience. I am lucky to have the opportunity to work on various kinds of projects, including <b>a small internal application</b> for start-ups, <b>web applications</b> for big customers, and currently <b>a full-scale enterprise analytics platform</b>. My main focus these days is building fast, scalable web applications for a variety of clients.<br /><br />
+                Fast-forward to this day, I am currently a software developer with 4+ years of professional experience. I am lucky to have the opportunity to work on various kinds of projects, ranging from <b>A small internal application</b> for a start-up to some <b>Web applications for big customers</b>, and currently <b>A large-scale analytics platform</b> for enterprise users. My main focus these days is building fast, scalable web applications that benefits customer <br /><br />
 
-                Besides my profession, I am somewhat of a musician when I have time. I play piano, guitar and sometimes I do make music. I feel that in some way, my instruments correspond to my human feeling.
+                Besides my profession, I am somewhat of a musician whenever I have time. I enjoy spending time with my piano, guitar and sometimes I record music. I feel that, in some way, my instruments correspond to my human feelings.
               </p>
             </Col>
 
@@ -33,7 +33,7 @@ export default class About extends Component {
                 <Figure.Caption className="my-avatar-caption">
                   Don't let the picture scare you, I am a clown at heart (try clicking on it).
                 </Figure.Caption>
-                
+
               </Figure>
             </Col>
           </Row>
