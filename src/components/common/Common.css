@@ -1,12 +1,25 @@
+@font-face {
+  font-family: "SectionFont";
+  src: url("../../static/fonts/NotoSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: myHeader;
+  src: url("../../static/fonts/Nunito-SemiBold.ttf");
+}
+
 .my-common-header {
   color: rgb(58, 99, 163);
   font-weight: 700 !important;
   border-bottom: 2px solid rgb(109, 125, 165);
+  font-family: myHeader;
 }
 
 .common-section-container {
   padding: 10vh 5rem 5vh 5rem;
   text-align: left;
+  font-family: SectionFont;
+  line-height: 25.5px;
 }
 
 .common-content {
