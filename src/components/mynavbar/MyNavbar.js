@@ -16,32 +16,34 @@ export default class MyNavbar extends Component {
         <Navbar
           className="my-navbar"
           variant="dark"
+          collapseOnSelect
+          expand="lg"
           fixed="top">
           <Container>
             <Navbar.Brand href="#landing-page">Tam Nguyen</Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link href="#about-me">About</Nav.Link>
-              <Nav.Link href="#experience-container">Experience</Nav.Link>
-              <Nav.Link href="#porfolio">Porfolio</Nav.Link>
-              <Nav.Link href="#contact-me">Contact</Nav.Link>
-            </Nav>
-            <Nav>
-              <Nav.Link
-                className="github-button"
-                href="https://github.com/Aleadinglight">
-                <Image src={Github}></Image>
-              </Nav.Link >
-              <Nav.Link
-                className="github-button"
-                href="https://github.com/Aleadinglight">
-                <Image src={Medium}></Image>
-              </Nav.Link >
-              <Nav.Link
-                className="github-button"
-                href="https://github.com/Aleadinglight">
-                <Image src={Linkedin}></Image>
-              </Nav.Link >
-            </Nav>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="#about-me">About</Nav.Link>
+                <Nav.Link href="#experience-container">Experience</Nav.Link>
+                <Nav.Link href="#porfolio">Porfolio</Nav.Link>
+                <Nav.Link href="#contact-me">Contact</Nav.Link>
+              </Nav>
+              <Nav className="">
+                <Nav.Link
+                  href="https://github.com/Aleadinglight">
+                  <Image className="github-button" src={Github}></Image>
+                </Nav.Link >
+                <Nav.Link
+                  href="https://github.com/Aleadinglight">
+                  <Image className="github-button" src={Medium}></Image>
+                </Nav.Link >
+                <Nav.Link
+                  href="https://github.com/Aleadinglight">
+                  <Image className="github-button" src={Linkedin}></Image>
+                </Nav.Link >
+              </Nav>
+            </Navbar.Collapse>
           </Container>
         </Navbar>
       </div>
