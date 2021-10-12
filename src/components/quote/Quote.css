@@ -25,3 +25,7 @@
   border: none;
   padding: 10px;
 }
+
+.quote-text {
+  line-height: 40px;
+}
