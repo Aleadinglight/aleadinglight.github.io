@@ -54,12 +54,13 @@ export default class Quote extends Component {
       <Container className="quote-container">
         <button className="quote-button"
           onClick={this.getPreviousQuote} >
-          
+
         </button>
-        {'"'}{this.getCurrentQuote()}{'"'}
+        <p className="quote-text">
+          {'"'}{this.getCurrentQuote()}{'"'}
+        </p>
         <button className="quote-button"
           onClick={this.getNextQuote}>
-          
         </button>
       </Container >
     )
