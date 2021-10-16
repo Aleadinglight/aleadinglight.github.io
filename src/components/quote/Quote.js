@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import Container from 'react-bootstrap/Container'
-import Image from 'react-bootstrap/Image'
 import myQuotes from '../../static/quote.json'
-import dArrowLeft from '../../static/fonts/icon/angle-double-left.svg'
-import dArrowRight from '../../static/fonts/icon/angle-double-right.svg'
 import "./Quote.css"
 
 export default class Quote extends Component {
