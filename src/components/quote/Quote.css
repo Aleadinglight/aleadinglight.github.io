@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "myQuote";
+  src: url("../../static/fonts/Nunito-ExtraLightItalic.ttf");
+}
+
+.quote-container {
+  text-align: center;
+  padding-top: 20px;
+  min-height: 100px;
+  font-size: 40px;
+  font-family: myQuote;
+  color: grey;
+}
+
+.quote-icon {
+  height: 30px;
+  color: grey;
+  font-family: mySection;
+}
+
+.quote-container .quote-button {
+  color: grey;
+  background-color: transparent;
+  outline: none!important;
+  border: none;
+  padding: 10px;
+}
+
+.quote-text {
+  line-height: 40px;
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "NavFont";
+  src: url("../../static/fonts/Nunito-SemiBold.ttf");
+}
+
+.my-navbar {
+  background-color: #27536b;
+  font-family: NavFont;
+}
+
+.github-button {
+  width: 32px;
+  height: 32px;
+}

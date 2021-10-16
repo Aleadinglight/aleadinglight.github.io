@@ -1,0 +1,13 @@
+.my-timeline-card {
+  text-align: left;
+}
+
+.my-timeline-time {
+  margin: 0px !important;
+  color: #8b9095;
+}
+
+.vertical-timeline-element-content p{
+  margin: 0.5rem 0rem 0.75rem 0px;
+  line-height: 1.5;
+}
