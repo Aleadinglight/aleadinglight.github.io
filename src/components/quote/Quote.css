@@ -39,12 +39,12 @@
 }
 
 .quote-left-container {
-  justify-content: center;
+  justify-content: end;
   display: inherit;
 }
 
 .quote-right-container {
-  justify-content: center;
+  justify-content: start;
   display: inherit;
 }
 
