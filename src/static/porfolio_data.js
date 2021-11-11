@@ -1,10 +1,10 @@
 const porfolio_data = [
   {
     name: "Task Tracking",
-    image: "digits.png",
+    image: "task_tracking.png",
     link: "https://github.com/Aleadinglight/Task-Tracking-Web",
     description: "A light weight, customizable task tracking web application tailored to my needs.",
-    language: "React, Javascript"
+    language: "Node.js, MongoDB, React, Javascript"
   },
   {
     name: "Data Augmentation",
