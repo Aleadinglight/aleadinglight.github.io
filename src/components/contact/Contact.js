@@ -17,7 +17,7 @@ export default class Contact extends Component {
 
             </p>
             <p className="" >
-              Whether you have a question, need to discuss something or simply just want to drop an email and say hi!
+              Whether you have a question, need to discuss something or simply just want to talk, drop an email and say hi!
             </p>
 
             <p><b>Email:</b> huutamnguyen2302@gmail.com</p>
