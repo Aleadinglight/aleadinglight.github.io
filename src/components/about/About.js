@@ -19,7 +19,7 @@ export default class About extends Component {
                 <p className="about-me-dialog">
                   Hello! My name is Tam Nguyen, a programmer and sometimes a technical writer. My passion is developing excellent software that helps people. I got into programming in high school when I decided to attend a Pascal programming class due to my interest in computers. It has been one of the most significant decisions of my life because I have been in love with programming ever since. <br /><br />
 
-                  Fast-forward to this day, I am currently a software developer with 3+ years of professional experience. I am lucky to have the opportunity to work on various kinds of projects, ranging from <b>A small internal application</b> for a start-up to some <b>Web applications for big customers</b>, and currently <b>A large-scale analytics platform</b> for enterprise business customers. My main focus these days is building fast, scalable web applications that benefit the customer <br /><br />
+                  Fast-forward to this day, I am currently a software developer with 3+ years of professional experience. I am lucky to have the opportunity to work on various kinds of projects, ranging from <b>A small internal application</b> for a start-up to some <b>Web applications for big customers</b>, and currently <b>A large-scale analytics platform</b> for enterprise business customers. My main focus these days is building fast, scalable web applications that benefit the customer. <br /><br />
 
                   Aside from my profession, I am somewhat of a musician in my free time. I enjoy spending time with my instruments and I record music occasionally. Somehow, I sense that my instruments reflect my feelings as a human being.
                 </p>
@@ -33,9 +33,8 @@ export default class About extends Component {
                     thumbnail
                   />
                   <Figure.Caption className="my-avatar-caption">
-                    Don't let the picture scare you, I am a clown at heart (try clicking on it).
+                    Don't let the picture scare you, I smile a lot.
                   </Figure.Caption>
-
                 </Figure>
               </Col>
             </Row>
