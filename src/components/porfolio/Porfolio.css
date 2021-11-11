@@ -1,7 +1,13 @@
-.porfolio-card {
-  
-}
-
 .card-column {
   padding: 0.5rem;
+}
+
+.my-card-title {
+  color: black;
+  text-decoration: none;
+}
+
+.my-card-title:hover {
+  color: black;
+  text-decoration: underline;
 }
