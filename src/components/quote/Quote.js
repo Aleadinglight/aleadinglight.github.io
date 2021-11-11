@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import myQuotes from '../../static/quote.json'
 import "./Quote.css"
 
@@ -13,8 +15,11 @@ export default class Quote extends Component {
   }
 
   getCurrentQuote = () => {
-    console.log(`this.state.quotes`, this.state.quotes)
     return this.state.quotes.quote[this.state.index].text;
+  }
+
+  getCurrentAuthor = () => {
+    return this.state.quotes.quote[this.state.index].author;
   }
 
   getNextQuote = () => {
@@ -28,7 +33,6 @@ export default class Quote extends Component {
         index: 0
       })
     }
-    console.log(`this.state.index`, this.state.index)
   }
 
   getPreviousQuote = () => {
@@ -49,16 +53,25 @@ export default class Quote extends Component {
   render() {
     return (
       <Container className="quote-container">
-        <button className="quote-button"
-          onClick={this.getPreviousQuote} >
-
-        </button>
-        <p className="quote-text">
-          {'"'}{this.getCurrentQuote()}{'"'}
-        </p>
-        <button className="quote-button"
-          onClick={this.getNextQuote}>
-        </button>
+        <Row>
+          <Col md={2} className="quote-left-container">
+            <button className="quote-button"
+              onClick={this.getPreviousQuote} >
+              {"<"}
+            </button>
+          </Col>
+          <Col>
+            <p className="quote-text">
+              {'"'}{this.getCurrentQuote()}{'"'}
+            </p>
+          </Col>
+          <Col md={2} className="quote-right-container">
+            <button className="quote-button"
+              onClick={this.getNextQuote}>
+              {">"}
+            </button>
+          </Col>
+        </Row>
       </Container >
     )
   }
