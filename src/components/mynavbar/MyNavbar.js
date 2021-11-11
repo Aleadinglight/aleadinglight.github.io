@@ -31,15 +31,18 @@ export default class MyNavbar extends Component {
               </Nav>
               <Nav className="">
                 <Nav.Link
+                  target="_blank"
                   href="https://github.com/Aleadinglight">
                   <Image className="github-button" src={Github}></Image>
                 </Nav.Link >
                 <Nav.Link
-                  href="https://github.com/Aleadinglight">
+                  target="_blank"
+                  href="https://huutamnguyen.medium.com/">
                   <Image className="github-button" src={Medium}></Image>
                 </Nav.Link >
                 <Nav.Link
-                  href="https://github.com/Aleadinglight">
+                  target="_blank"
+                  href="https://www.linkedin.com/in/tam-nguyen-ne/">
                   <Image className="github-button" src={Linkedin}></Image>
                 </Nav.Link >
               </Nav>
