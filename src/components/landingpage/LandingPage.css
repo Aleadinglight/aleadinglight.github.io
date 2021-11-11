@@ -8,17 +8,21 @@
   background-color: #27536b;
 }
 
+.landing-page-content {
+  padding-top: 30vh;
+}
+
+.landing-page-icon-container {
+  text-align: left;
+}
+
 .landing-page-icon {
+  text-align: left;
   width: 300px;
-  position: absolute;
-  top: 20%;
-  right: 20%;
 }
 
 .welcome-text {
-  position: absolute;
-  top: 35%;
-  left: 10%;
+  margin-right: 100px;
   width: 500px;
   color: white;
   text-align: left;
