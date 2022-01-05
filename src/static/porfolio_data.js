@@ -13,12 +13,27 @@ const porfolio_data = [
     description: "Data Augmentation Algorithms to increase the number of datasets for Deep Learning and Machine Learning, demonstrated in MathLab.",
     language: "MathLab"
   },
+  
+  {
+    name: "My Golang Notebook",
+    image: "golang_notebook.png",
+    link: "https://github.com/Aleadinglight/my-golang-notebook",
+    description: "My Golang notes on important concepts and syntaxes with examples",
+    language: "Go"
+  },
   {
     name: "Flutter Particles",
     image: "particles.png",
     link: "https://github.com/Aleadinglight/Flutter-Particles",
     description: "A Flutter widget for creating floating particles effects. Published on pub.dev as an open-source project.",
     language: "Flutter, Dart"
+  },
+  {
+    name: "Raspberry Pi Custom Alarm",
+    image: "raspberry_pi_4.jpg",
+    link: "https://github.com/Aleadinglight/Linux-custom-alarm",
+    description: "A customizable alarm terminal application for Raspberry Pi 4. Allow user to use Youtube video as alarm sound.",
+    language: "Python, Bash"
   },
   {
     name: "Art style transfer",

@@ -24,7 +24,7 @@ export default class Porfolio extends Component {
           <h2 className="my-common-header">Porfolio</h2>
           <p className="experience-text">Some worth-noting projects</p>
 
-          <Row lg={2} xl={3}>
+          <Row lg={3} xl={4}>
             {this.state.porfolioData.map((item) => (
               <Col key={item.name} className="card-column">
                 <Card className="porfolio-card" data-aos="fade-up" data-aos-duration="500">
